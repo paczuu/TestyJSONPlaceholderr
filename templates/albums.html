@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albums</title>
+    <title>Albumy</title>
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
@@ -12,20 +12,20 @@
             <h1>Albums</h1>
             <nav class="nav-right">
                 <ul>
+                    <li><a href="/posts">Posty</a></li>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/posts">Posts</a></li>
-                    <li><a href="/albums">Albums</a></li>
+                    <li><a href="/albums">Albumy</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <div class="container">
         <form method="POST">
-            <label for="num_albums">Number of albums:</label>
+            <label for="num_albums">Liczba albumów:</label>
             <input type="number" name="num_albums" required>
-            <label for="num_photos">Number of photos per album:</label>
+            <label for="num_photos">Liczba zdjęć dla albumu:</label>
             <input type="number" name="num_photos" required>
-            <button type="submit">Submit</button>
+            <button type="submit">Zatwierdź</button>
         </form>
         {% if albums %}
         <ul>

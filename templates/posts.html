@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts</title>
+    <title>Posty</title>
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
@@ -12,22 +12,22 @@
             <h1>Posts</h1>
             <nav class="nav-right">
                 <ul>
+                    <li><a href="/posts">Posty</a></li>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/posts">Posts</a></li>
-                    <li><a href="/albums">Albums</a></li>
+                    <li><a href="/albums">Albumy</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <div class="container">
         <form method="POST">
-            <label for="num_posts">Number of posts:</label>
+            <label for="num_posts">Liczba postów:</label>
             <input type="number" name="num_posts" required>
-            <label for="num_comments">Number of comments per post:</label>
+            <label for="num_comments">Liczba kometarzy dla posta:</label>
             <input type="number" name="num_comments" required>
-            <label for="max_chars">Max characters per post:</label>
+            <label for="max_chars">Maksymalna ilość znaków posta:</label>
             <input type="number" name="max_chars" required>
-            <button type="submit">Submit</button>
+            <button type="submit">Zatwierdź</button>
         </form>
         {% if posts %}
         <ul>
