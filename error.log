@@ -1,0 +1,108 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-447-891
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:20:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:20:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:21:01] "GET /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:21:12] "POST /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:24:02] "POST /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:24:03] "GET /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:24:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:24:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:24:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-447-891
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:24:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:25:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:25:47] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:25:49] "GET /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:25:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:25:53] "GET /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:25:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:27:19] "GET /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:27:19] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:27:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:27:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:27:32] "GET /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:27:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:31:15] "GET /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:31:15] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:34] "GET /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:34] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:32:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:35:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:35:51] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:35:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:35:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:35:58] "GET /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:35:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:35:59] "GET /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:35:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:36:01] "GET /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:36:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:36:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:36:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:36:03] "GET /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:36:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:36:16] "POST /posts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:36:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:09] "GET /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:15] "POST /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:41] "GET /albums/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:52] "GET /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:55] "POST /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:57] "GET /albums/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:37:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:41:13] "GET /albums/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:41:13] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:41:14] "GET /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:41:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:41:18] "POST /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:41:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:41:36] "POST /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:41:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:42:06] "POST /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:42:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:42:12] "POST /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:42:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:42:32] "GET /albums/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:42:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:45:08] "GET /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:45:08] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:45:13] "POST /albums HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:45:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:45:34] "GET /albums/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jun/2024 14:45:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Patryk\\PycharmProjects\\pythonProject2\\tests\\test_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-447-891
+ERROR:root:Error fetching album detail: API error
+ERROR:root:Error fetching albums: API error
+ERROR:root:Error fetching post detail: API error
+ERROR:root:Error fetching posts: API error
+ERROR:root:Error fetching album detail: API error
+ERROR:root:Error fetching albums: API error
+ERROR:root:Error fetching post detail: API error
+ERROR:root:Error fetching posts: API error

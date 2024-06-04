@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albums</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Albums</h1>
+            <nav class="nav-right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/posts">Posts</a></li>
+                    <li><a href="/albums">Albums</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <form method="POST">
+            <label for="num_albums">Number of albums:</label>
+            <input type="number" name="num_albums" required>
+            <label for="num_photos">Number of photos per album:</label>
+            <input type="number" name="num_photos" required>
+            <button type="submit">Submit</button>
+        </form>
+        {% if albums %}
+        <ul>
+            {% for album in albums %}
+            <li>
+                <h2><a href="/albums/{{ album.id }}">{{ album.title }}</a></h2>
+                <ul class="photo-grid">
+                    {% for photo in album.photos %}
+                    <li><img src="{{ photo.thumbnailUrl }}" alt="{{ photo.title }}"></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

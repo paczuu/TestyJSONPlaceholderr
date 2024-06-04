@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Posts</h1>
+            <nav class="nav-right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/posts">Posts</a></li>
+                    <li><a href="/albums">Albums</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <form method="POST">
+            <label for="num_posts">Number of posts:</label>
+            <input type="number" name="num_posts" required>
+            <label for="num_comments">Number of comments per post:</label>
+            <input type="number" name="num_comments" required>
+            <label for="max_chars">Max characters per post:</label>
+            <input type="number" name="max_chars" required>
+            <button type="submit">Submit</button>
+        </form>
+        {% if posts %}
+        <ul>
+            {% for post in posts %}
+            <li>
+                <h2><a href="/posts/{{ post.id }}">{{ post.title }}</a></h2>
+                <p>{{ post.body }}</p>
+                <ul>
+                    {% for comment in post.comments %}
+                    <li>{{ comment.body }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
